@@ -12,7 +12,7 @@ import it.dizionario.marco.Model.Parola;
 
 public class DizionarioDAO {
 	
-	private static final String jdbcURL = "jdbc:mysql://localhost:3306/dizionario?user=root&password=LeonardoViola201";
+	private static final String jdbcURL = "jdbc:mysql://localhost:3306/dizionario?user=root&password=";
 	private static String sql = "SELECT id,nome FROM parola WHERE nome LIKE ? LIMIT 500;";
 			
 			
